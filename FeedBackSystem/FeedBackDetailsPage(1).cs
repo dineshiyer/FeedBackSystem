@@ -37,11 +37,12 @@ namespace FeedBackSystem
             cd.ExecuteNonQuery();
             cd.CommandText = "delete from [dbo].ProfData";
             cd.ExecuteNonQuery();
-            cd.CommandText = "delete from [dbo].FeedBackMain";
+            cd.CommandText = "drop table [dbo].FeedBackMain";
             cd.ExecuteNonQuery();
             cd.CommandText = "delete from [dbo].Data1";
             cd.ExecuteNonQuery();
-
+            cd.CommandText = "IF OBJECT_ID('dbo.FeedBackMain', 'U') IS NULL BEGIN CREATE TABLE [dbo].[FeedBackMain]([Questions] NVARCHAR(MAX) NOT NULL) END";
+            cd.ExecuteNonQuery();
             s.Close();
         }
 

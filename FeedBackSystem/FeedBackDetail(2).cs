@@ -84,33 +84,33 @@ namespace FeedBackSystem
            
             if (tb_t1.Text.ToString() != "" && tb_s1.Text.ToString() != "")
            {
-               feedbackdetails[0] = tb_t1.Text.ToString() + "\n" + tb_s1.Text.ToString();
+               feedbackdetails[0] = tb_t1.Text.ToString() + tb_s1.Text.ToString();
            } 
            
            if (tb_t2.Text.ToString() != "" && tb_s2.Text.ToString() != "")
            {
-               feedbackdetails[1] = tb_t2.Text.ToString() + "\n" + tb_s2.Text.ToString();
+               feedbackdetails[1] = tb_t2.Text.ToString() +  tb_s2.Text.ToString();
            }
 
            if (tb_t3.Text.ToString() != "" && tb_s3.Text.ToString() != "")
            {
-               feedbackdetails[2] = tb_t3.Text.ToString() + "\n" + tb_s3.Text.ToString();
+               feedbackdetails[2] = tb_t3.Text.ToString() +  tb_s3.Text.ToString();
            }
            if (tb_t4.Text.ToString() != "" && tb_s4.Text.ToString() != "")
            {
-               feedbackdetails[3] = tb_t4.Text.ToString() + "\n" + tb_s4.Text.ToString();
+               feedbackdetails[3] = tb_t4.Text.ToString() +  tb_s4.Text.ToString();
            }
            if (tb_t5.Text.ToString() != "" && tb_s5.Text.ToString() != "")
            {
-               feedbackdetails[4] = tb_t5.Text.ToString() + "\n" + tb_s5.Text.ToString();
+               feedbackdetails[4] = tb_t5.Text.ToString() +  tb_s5.Text.ToString();
            }
            if (tb_t6.Text.ToString() != "" && tb_s6.Text.ToString() != "")
            {
-               feedbackdetails[5] = tb_t6.Text.ToString() + "\n" + tb_s6.Text.ToString();
+               feedbackdetails[5] = tb_t6.Text.ToString() +  tb_s6.Text.ToString();
            }
            if (tb_t7.Text.ToString() != "" && tb_s7.Text.ToString() != "")
            {
-               feedbackdetails[6] = tb_t7.Text.ToString() + "\n" + tb_s7.Text.ToString();
+               feedbackdetails[6] = tb_t7.Text.ToString() +  tb_s7.Text.ToString();
            }
 
             int i=0;
